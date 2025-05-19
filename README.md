@@ -27,7 +27,7 @@ Una aplicación web moderna para la gestión de reservas de canchas deportivas, 
 
 1. Clona el repositorio:
 ```bash
-git clone https://github.com/tu-usuario/reservas-canchas.git
+git clone https://github.com/YeinerCassiani/reservas-canchas.git
 cd reservas-canchas
 ```
 
