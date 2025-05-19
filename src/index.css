@@ -1,0 +1,227 @@
+:root {
+  font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
+  line-height: 1.5;
+  font-weight: 400;
+
+  color-scheme: light dark;
+  color: rgba(255, 255, 255, 0.87);
+  background-color: #242424;
+
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+a {
+  font-weight: 500;
+  color: #646cff;
+  text-decoration: inherit;
+}
+a:hover {
+  color: #535bf2;
+}
+
+body {
+  margin: 0;
+  min-width: 320px;
+  min-height: 100vh;
+  background-color: #000000;
+  color: #ffffff;
+}
+
+h1 {
+  font-size: 3.2em;
+  line-height: 1.1;
+}
+
+button {
+  border-radius: 8px;
+  border: 1px solid transparent;
+  padding: 0.6em 1.2em;
+  font-size: 1em;
+  font-weight: 500;
+  font-family: inherit;
+  background-color: #1a1a1a;
+  cursor: pointer;
+  transition: border-color 0.25s;
+}
+button:hover {
+  border-color: #646cff;
+}
+button:focus,
+button:focus-visible {
+  outline: 4px auto -webkit-focus-ring-color;
+}
+
+@media (prefers-color-scheme: light) {
+  :root {
+    color: #213547;
+    background-color: #ffffff;
+  }
+  a:hover {
+    color: #747bff;
+  }
+  button {
+    background-color: #f9f9f9;
+  }
+}
+
+#root {
+  width: 100%;
+  min-height: 100vh;
+}
+
+.ant-card {
+  background-color: #1f1f1f !important;
+  border-color: #303030 !important;
+}
+
+.ant-card-head {
+  border-bottom-color: #303030 !important;
+}
+
+.ant-table {
+  background-color: #1f1f1f !important;
+}
+
+.ant-table-thead > tr > th {
+  background-color: #141414 !important;
+  color: #ffffff !important;
+  border-bottom-color: #303030 !important;
+}
+
+.ant-table-tbody > tr > td {
+  border-bottom-color: #303030 !important;
+}
+
+.ant-table-tbody > tr:hover > td {
+  background-color: #262626 !important;
+}
+
+.ant-input,
+.ant-select-selector,
+.ant-picker {
+  background-color: #141414 !important;
+  border-color: #303030 !important;
+  color: #ffffff !important;
+}
+
+.ant-input::placeholder,
+.ant-select-selection-placeholder {
+  color: #666666 !important;
+}
+
+.ant-btn-primary {
+  background-color: #1890ff !important;
+  border-color: #1890ff !important;
+}
+
+.ant-btn-primary:hover {
+  background-color: #40a9ff !important;
+  border-color: #40a9ff !important;
+}
+
+.ant-menu {
+  background-color: #141414 !important;
+  border-right-color: #303030 !important;
+}
+
+.ant-menu-item {
+  color: #ffffff !important;
+}
+
+.ant-menu-item-selected {
+  background-color: #1f1f1f !important;
+  color: #1890ff !important;
+}
+
+.ant-menu-item:hover {
+  background-color: #262626 !important;
+}
+
+.ant-modal-content,
+.ant-drawer-content {
+  background-color: #1f1f1f !important;
+}
+
+.ant-modal-header {
+  background-color: #1f1f1f !important;
+  border-bottom-color: #303030 !important;
+}
+
+.ant-modal-footer {
+  border-top-color: #303030 !important;
+}
+
+.ant-statistic-title {
+  color: #a6a6a6 !important;
+}
+
+.ant-statistic-content {
+  color: #ffffff !important;
+}
+
+.ant-charts {
+  background-color: #1f1f1f !important;
+}
+
+.ant-charts-legend-item-text {
+  color: #ffffff !important;
+}
+
+.ant-message-notice-content {
+  background-color: #1f1f1f !important;
+  color: #ffffff !important;
+}
+
+.ant-notification-notice {
+  background-color: #1f1f1f !important;
+  color: #ffffff !important;
+}
+
+.ant-tooltip-inner {
+  background-color: #1f1f1f !important;
+  color: #ffffff !important;
+}
+
+.ant-popover-inner {
+  background-color: #1f1f1f !important;
+}
+
+.ant-popover-title {
+  color: #ffffff !important;
+  border-bottom-color: #303030 !important;
+}
+
+.ant-dropdown-menu {
+  background-color: #1f1f1f !important;
+}
+
+.ant-dropdown-menu-item {
+  color: #ffffff !important;
+}
+
+.ant-dropdown-menu-item:hover {
+  background-color: #262626 !important;
+}
+
+.ant-tabs-tab {
+  color: #a6a6a6 !important;
+}
+
+.ant-tabs-tab-active {
+  color: #1890ff !important;
+}
+
+.ant-tabs-ink-bar {
+  background-color: #1890ff !important;
+}
+
+.ant-badge-count {
+  background-color: #1890ff !important;
+}
+
+.ant-avatar {
+  background-color: #1890ff !important;
+}
